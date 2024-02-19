@@ -282,10 +282,10 @@ main {
     .main__bottom-text {
         margin-top: 6vw;
         font-size: 2vw;
-        width: 40vw;
+        width: 50vw;
         font-weight: 100;
         line-height: 2vw;
-        margin-left: 25vw;
+        margin-left: 15vw;
     }
 
     .bottom-block {
@@ -298,6 +298,11 @@ main {
 
     .lights {
         display: none;
+    }
+
+    .full-size-name {
+        text-align: left;
+        font-size: 16vw;
     }
 }
 
@@ -319,9 +324,17 @@ main {
     .main__bottom-text {
         margin-top: 9vw;
         font-size: 2.75vw;
-        width: 50vw;
+        width: 60vw;
         line-height: 3vw;
-        margin-left: 15vw;
+        margin-left: 20vw;
+    }
+
+    main, header {
+        width: 90%;
+    }
+
+    .full-size-name {
+        font-size: 18vw;
     }
 }
 
@@ -344,7 +357,7 @@ main {
     .main__bottom-text {
         margin-top: 9vw;
         font-size: 3.2vw;
-        width: 50vw;
+        width: 60vw;
         line-height: 3.8vw;
         margin-left: 15vw;
     }

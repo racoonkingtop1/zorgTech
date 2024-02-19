@@ -160,7 +160,7 @@ main {
     font-size: 1.3vw;
     font-weight: 300;
     line-height: 2vw;
-    margin-top: 2.5vw;
+    margin-top: 0.5vw;
 }
 
 .main-btn-texts button {
@@ -245,6 +245,7 @@ main {
     z-index: 3;
 }
 
+
 /* ! */
 
 @media(max-width: 970px) {
@@ -271,13 +272,15 @@ main {
     }
 
     .main-plates {
-        width: 100%;
+        width: 96%;
+        margin: 0 2%;
     }
 
     .main__text {
         font-size: 2.6vw;
         font-weight: 100;
         line-height: 3vw;
+        margin-top: 2.5vw;
     }
 
     .main-btn-texts {
@@ -296,6 +299,7 @@ main {
         font-weight: 100;
         line-height: 2vw;
         margin-left: 15vw;
+        margin-bottom: 2.5vw;
     }
 
     .bottom-block {
@@ -311,6 +315,10 @@ main {
     }
 
     .lights {
+        display: none;
+    }
+
+    .stars {
         display: none;
     }
 
@@ -348,7 +356,7 @@ main {
     }
 
     .full-size-name {
-        font-size: 18vw;
+        font-size: 18.5vw;
     }
 }
 

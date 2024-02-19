@@ -160,7 +160,7 @@ main {
     font-size: 1.3vw;
     font-weight: 300;
     line-height: 2vw;
-    margin-top: 0.5vw;
+    margin-top: 2.5vw;
 }
 
 .main-btn-texts button {
@@ -227,6 +227,15 @@ main {
 }
 
 /*  */
+.bottom-block2 {
+    z-index: 2;
+    position: absolute;
+    bottom: 0%;
+    width: -webkit-fill-available;
+    display: none;
+}
+
+/*  */
 
 .lights {
     position: absolute;
@@ -290,7 +299,11 @@ main {
     }
 
     .bottom-block {
-        bottom: -2%;
+        display: none;
+    }
+
+    .bottom-block2 {
+        display: block;
     }
 
     .backcircle {
@@ -325,7 +338,7 @@ main {
     .main__bottom-text {
         margin-top: 9vw;
         font-size: 2.75vw;
-        width: 60vw;
+        width: 50vw;
         line-height: 3vw;
         margin-left: 20vw;
     }
@@ -358,7 +371,6 @@ main {
     .main__bottom-text {
         margin-top: 9vw;
         font-size: 3.2vw;
-        width: 60vw;
         line-height: 3.8vw;
         margin-left: 15vw;
     }

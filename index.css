@@ -160,16 +160,17 @@ main {
     font-size: 1.3vw;
     font-weight: 300;
     line-height: 2vw;
+    margin-top: 0.5vw;
 }
 
 .main-btn-texts button {
     font-family: Helvetica, sans-serif;
     font-size: 1.3vw;
     font-weight: 300;
-    padding: 1.3vw;
+    padding: 1vw;
     border: 1px solid transparent;
     width: 100%;
-    margin-top: 1.5vw;
+    margin-top: 2vw;
     line-height: 23px;
     text-align: center;
     background: #54AAD8;
